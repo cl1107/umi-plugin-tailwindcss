@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-tailwindcss",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "umi@3.0 plugin for tailwindcss",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,7 +34,7 @@
     "access": "public"
   },
   "dependencies": {
-    "tailwindcss": "2.0.1-compat"
+    "tailwindcss": "^2.*"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^7.1.1",
