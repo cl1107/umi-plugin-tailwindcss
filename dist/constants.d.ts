@@ -1,0 +1,2 @@
+export declare const tailwindcssContent = "/* purgecss start ignore */\n\n@tailwind components;\n/* purgecss end ignore */\n\n@tailwind utilities;\n";
+export declare const tailwindConfigJS = "module.exports = {\n    purge: ['./src/**/*.html', './src/**/*.tsx', './src/**/*.ts'],\n    darkMode: false, // or 'media' or 'class'\n    theme: {},\n    variants: {\n      extend: {},\n    },\n    plugins: [],\n};\n";
